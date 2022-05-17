@@ -1,0 +1,80 @@
+* {
+    color: #e2e2e2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #272729;
+    text-align: center;
+    font-size: 20px;
+    background-image: url();
+}
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+}
+.row{
+    width: 100%;
+}
+.options{
+    margin: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: 2px solid #b75656;
+    border-right: 2px solid #b75656;
+
+}
+.logo{
+    height: 70px;
+}
+a{
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.options > a{
+    margin: 50px;
+    padding-bottom: 10px;
+    
+}
+.options > a:hover, .active{
+    border-bottom: 2px solid #b75656;
+}
+
+h1, h2, h3{
+    text-align: left;
+    color: #b75656;
+}
+h3{
+    color: #e2e2e2;
+}
+button{
+    margin: 20px;
+    margin-top: 35px;
+    background-color: #b75656;
+    border: 2px solid #b75656;
+    border-radius: 5px;
+    height: 50%;
+    width: 35%;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color: #272729;
+    color: #b75656;
+}
+.unit, .note{
+    background-image: url('images/unit.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+}
+.note{
+    background-image: url('images/notes.jpg');
+}
+a > * {
+    cursor: pointer;
+}
